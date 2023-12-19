@@ -1,4 +1,4 @@
-#
+e#
 # Be sure to run `pod lib lint FuyaCustomPlay.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/fangdada1/FuyaCustomPlay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fangdada1' => 'fangbowen@fuya.live' }
+  s.author           = { 'fangdada1' => '120435977+fangdada1@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/fangdada1/FuyaCustomPlay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,6 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'AVFoundation'
+  s.static_framework = false
+  s.dependency 'ZFPlayer', '3.3.0'
+  s.dependency 'ZFPlayer/ControlView', '3.3.0'
+  s.dependency 'KTVHTTPCache'
 end

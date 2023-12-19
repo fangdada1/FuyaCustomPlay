@@ -1,0 +1,22 @@
+{
+  "name": "FuyaCustomPlay",
+  "version": "0.1.0",
+  "summary": "A short description of FuyaCustomPlay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fangdada1/FuyaCustomPlay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fangdada1": "fangbowen@fuya.live"
+  },
+  "source": {
+    "git": "https://github.com/fangdada1/FuyaCustomPlay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FuyaCustomPlay/Classes/**/*"
+}

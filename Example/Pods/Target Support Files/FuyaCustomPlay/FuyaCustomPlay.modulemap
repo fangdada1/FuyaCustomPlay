@@ -1,0 +1,6 @@
+framework module FuyaCustomPlay {
+  umbrella header "FuyaCustomPlay-umbrella.h"
+
+  export *
+  module * { export * }
+}

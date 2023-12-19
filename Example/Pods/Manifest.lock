@@ -1,0 +1,16 @@
+PODS:
+  - FuyaCustomPlay (0.1.0)
+
+DEPENDENCIES:
+  - FuyaCustomPlay (from `../`)
+
+EXTERNAL SOURCES:
+  FuyaCustomPlay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FuyaCustomPlay: 73ad452c849946a1f68e3828a91c2502a524bad9
+
+PODFILE CHECKSUM: a29b6fee76667954bd97591280f7b954c556afd6
+
+COCOAPODS: 1.11.3

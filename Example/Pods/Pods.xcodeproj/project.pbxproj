@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16480BEFF6126D025E23BBB6CE5FB98D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36652D05D31ED6CDF7C1F2A329CE8EF1 /* Pods-FuyaCustomPlay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7272C845A298C00B77B4A1F2DB00C15 /* Pods-FuyaCustomPlay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FDB3EC8E85D5F66A336E91EBD7BC61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		44ADB7EC940C25554645D1B97DD0D25E /* Pods-FuyaCustomPlay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F3CD546C068891CEEF5E2A69FDF6D4 /* Pods-FuyaCustomPlay_Tests-dummy.m */; };
+		4515BB4D61E8D5AE909D6FDB7B8016C7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D17857DFAA3BD884FE0CCE5F0E2E6C1A /* ReplaceMe.m */; };
+		4A46F7FD0E915FE1DFF74E213271E381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		506CFE322BEEF3BF3673322A2AC3CD2E /* Pods-FuyaCustomPlay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16669D42EF77189CB34BA4D79D0CBC7E /* Pods-FuyaCustomPlay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9A5134D46254B948DAEC2A6796A890 /* FuyaCustomPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B87B248580F5E6F53278BDDD63AA15 /* FuyaCustomPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F3A605C258003522646183750E83E4 /* Pods-FuyaCustomPlay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15B6E9418F28B0BC27F87DCED7A0BD /* Pods-FuyaCustomPlay_Example-dummy.m */; };
+		C6846E6CDBCCE2EA6A43ADF3D5512670 /* FuyaCustomPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 061B3B36EBBE8A38321ABF33E971B807 /* FuyaCustomPlay-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584CD2B0AE81B954884074FEFEBDAA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB0780CE54A43E13840C933AB9BCD4;
+			remoteInfo = FuyaCustomPlay;
+		};
+		7D92C12783D42E9A17DFED0327C0FA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB75711592D5320F642CC84E2DF99EE8;
+			remoteInfo = "Pods-FuyaCustomPlay_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01213A89333F93DD625AB795D3C72558 /* Pods-FuyaCustomPlay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuyaCustomPlay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		061B3B36EBBE8A38321ABF33E971B807 /* FuyaCustomPlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuyaCustomPlay-dummy.m"; sourceTree = "<group>"; };
+		0D15A298627A7EB64E5BF9D3D3147E43 /* FuyaCustomPlay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuyaCustomPlay; path = FuyaCustomPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16669D42EF77189CB34BA4D79D0CBC7E /* Pods-FuyaCustomPlay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuyaCustomPlay_Example-umbrella.h"; sourceTree = "<group>"; };
+		2C8BAEEC189F4133A373E46724B999D8 /* FuyaCustomPlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuyaCustomPlay.modulemap; sourceTree = "<group>"; };
+		2E28A1C7A726A7E1F2804C99849F1805 /* Pods-FuyaCustomPlay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuyaCustomPlay_Example-Info.plist"; sourceTree = "<group>"; };
+		32FEFC81F6209356C247531E6156DA89 /* Pods-FuyaCustomPlay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuyaCustomPlay_Tests-Info.plist"; sourceTree = "<group>"; };
+		37F3CD546C068891CEEF5E2A69FDF6D4 /* Pods-FuyaCustomPlay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuyaCustomPlay_Tests-dummy.m"; sourceTree = "<group>"; };
+		4580AC9E186A2DAB8EC6AFCF8D7F514A /* Pods-FuyaCustomPlay_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuyaCustomPlay_Example"; path = Pods_FuyaCustomPlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46669BFF89B2BDBA15A30961E483C634 /* Pods-FuyaCustomPlay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuyaCustomPlay_Example.modulemap"; sourceTree = "<group>"; };
+		5815CCF8E39276D79C781031DC998876 /* FuyaCustomPlay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FuyaCustomPlay.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		58BC25D6A23B073563A6D905DE9AA656 /* FuyaCustomPlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuyaCustomPlay-Info.plist"; sourceTree = "<group>"; };
+		631B0ECE3EF2976ECB5EC14E6076912D /* FuyaCustomPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuyaCustomPlay.release.xcconfig; sourceTree = "<group>"; };
+		66B87B248580F5E6F53278BDDD63AA15 /* FuyaCustomPlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuyaCustomPlay-umbrella.h"; sourceTree = "<group>"; };
+		6E99CB1FEBBBED6CE13D936E0E33042B /* Pods-FuyaCustomPlay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuyaCustomPlay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		70EAEFA78BFA61F76CD415362ABE8268 /* Pods-FuyaCustomPlay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuyaCustomPlay_Tests.modulemap"; sourceTree = "<group>"; };
+		71DE1E57EFC9981465644D5BA970F157 /* Pods-FuyaCustomPlay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuyaCustomPlay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7209BFFF087490BC261DFFD77EEC0CA7 /* Pods-FuyaCustomPlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuyaCustomPlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737A0B0D8FF104C4591F522AD9040F62 /* FuyaCustomPlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuyaCustomPlay-prefix.pch"; sourceTree = "<group>"; };
+		75F886716825B985DF157A5C212432E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D431DDA40DCD9F098BB1C3FE171CFCC /* FuyaCustomPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuyaCustomPlay.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF95AE6EC63A74E75A2305FDB13AE510 /* Pods-FuyaCustomPlay_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuyaCustomPlay_Tests"; path = Pods_FuyaCustomPlay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE7FED2A63E1E55E1120B9EDB02053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE60592F62FAEAEC6FB65FBC21BEE418 /* Pods-FuyaCustomPlay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuyaCustomPlay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D17857DFAA3BD884FE0CCE5F0E2E6C1A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FuyaCustomPlay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DC707A44F746EE2EBABE9C018704FD11 /* Pods-FuyaCustomPlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuyaCustomPlay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E0C47C05E0B790FEF205515F1DD0CA4E /* Pods-FuyaCustomPlay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuyaCustomPlay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE2E8777C5C7C5C8727C319D0F47C4F2 /* Pods-FuyaCustomPlay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuyaCustomPlay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F603DA3DBF0818915B9CC7AAC91FBC6A /* Pods-FuyaCustomPlay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuyaCustomPlay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7272C845A298C00B77B4A1F2DB00C15 /* Pods-FuyaCustomPlay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuyaCustomPlay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC15B6E9418F28B0BC27F87DCED7A0BD /* Pods-FuyaCustomPlay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuyaCustomPlay_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438BEE71E35D7F041D67C2731FB11095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDB3EC8E85D5F66A336E91EBD7BC61D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF6162E7262FDD7198B04B3F6B31F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A46F7FD0E915FE1DFF74E213271E381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D39F33D6E6809E3B228177522B45F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16480BEFF6126D025E23BBB6CE5FB98D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1294D50C1F6F4AD20EDEF1E3A30F7370 /* Pods-FuyaCustomPlay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				46669BFF89B2BDBA15A30961E483C634 /* Pods-FuyaCustomPlay_Example.modulemap */,
+				71DE1E57EFC9981465644D5BA970F157 /* Pods-FuyaCustomPlay_Example-acknowledgements.markdown */,
+				BE60592F62FAEAEC6FB65FBC21BEE418 /* Pods-FuyaCustomPlay_Example-acknowledgements.plist */,
+				FC15B6E9418F28B0BC27F87DCED7A0BD /* Pods-FuyaCustomPlay_Example-dummy.m */,
+				6E99CB1FEBBBED6CE13D936E0E33042B /* Pods-FuyaCustomPlay_Example-frameworks.sh */,
+				2E28A1C7A726A7E1F2804C99849F1805 /* Pods-FuyaCustomPlay_Example-Info.plist */,
+				16669D42EF77189CB34BA4D79D0CBC7E /* Pods-FuyaCustomPlay_Example-umbrella.h */,
+				7209BFFF087490BC261DFFD77EEC0CA7 /* Pods-FuyaCustomPlay_Example.debug.xcconfig */,
+				DC707A44F746EE2EBABE9C018704FD11 /* Pods-FuyaCustomPlay_Example.release.xcconfig */,
+			);
+			name = "Pods-FuyaCustomPlay_Example";
+			path = "Target Support Files/Pods-FuyaCustomPlay_Example";
+			sourceTree = "<group>";
+		};
+		41D1D32DB5171EEBF8B815FF6D8D1E32 /* FuyaCustomPlay */ = {
+			isa = PBXGroup;
+			children = (
+				D17857DFAA3BD884FE0CCE5F0E2E6C1A /* ReplaceMe.m */,
+				E6F34DC3D06E3F92B5FCA14EAEBEB2F7 /* Pod */,
+				DB591D5D2CDEBF6E7EADDB6DB78BD7DC /* Support Files */,
+			);
+			name = FuyaCustomPlay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D6A5A3C628A132FDF41483FAAF6427E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D15A298627A7EB64E5BF9D3D3147E43 /* FuyaCustomPlay */,
+				4580AC9E186A2DAB8EC6AFCF8D7F514A /* Pods-FuyaCustomPlay_Example */,
+				AF95AE6EC63A74E75A2305FDB13AE510 /* Pods-FuyaCustomPlay_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B1E9E09117173B279F8DDFA03EE9156 /* Pods-FuyaCustomPlay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70EAEFA78BFA61F76CD415362ABE8268 /* Pods-FuyaCustomPlay_Tests.modulemap */,
+				E0C47C05E0B790FEF205515F1DD0CA4E /* Pods-FuyaCustomPlay_Tests-acknowledgements.markdown */,
+				F603DA3DBF0818915B9CC7AAC91FBC6A /* Pods-FuyaCustomPlay_Tests-acknowledgements.plist */,
+				37F3CD546C068891CEEF5E2A69FDF6D4 /* Pods-FuyaCustomPlay_Tests-dummy.m */,
+				32FEFC81F6209356C247531E6156DA89 /* Pods-FuyaCustomPlay_Tests-Info.plist */,
+				F7272C845A298C00B77B4A1F2DB00C15 /* Pods-FuyaCustomPlay_Tests-umbrella.h */,
+				EE2E8777C5C7C5C8727C319D0F47C4F2 /* Pods-FuyaCustomPlay_Tests.debug.xcconfig */,
+				01213A89333F93DD625AB795D3C72558 /* Pods-FuyaCustomPlay_Tests.release.xcconfig */,
+			);
+			name = "Pods-FuyaCustomPlay_Tests";
+			path = "Target Support Files/Pods-FuyaCustomPlay_Tests";
+			sourceTree = "<group>";
+		};
+		856F646A9EACD65329205E9ACF2D1EBA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41D1D32DB5171EEBF8B815FF6D8D1E32 /* FuyaCustomPlay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				856F646A9EACD65329205E9ACF2D1EBA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D6A5A3C628A132FDF41483FAAF6427E /* Products */,
+				EF546877D45F01141C83724AE08FC7B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB591D5D2CDEBF6E7EADDB6DB78BD7DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8BAEEC189F4133A373E46724B999D8 /* FuyaCustomPlay.modulemap */,
+				061B3B36EBBE8A38321ABF33E971B807 /* FuyaCustomPlay-dummy.m */,
+				58BC25D6A23B073563A6D905DE9AA656 /* FuyaCustomPlay-Info.plist */,
+				737A0B0D8FF104C4591F522AD9040F62 /* FuyaCustomPlay-prefix.pch */,
+				66B87B248580F5E6F53278BDDD63AA15 /* FuyaCustomPlay-umbrella.h */,
+				9D431DDA40DCD9F098BB1C3FE171CFCC /* FuyaCustomPlay.debug.xcconfig */,
+				631B0ECE3EF2976ECB5EC14E6076912D /* FuyaCustomPlay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FuyaCustomPlay";
+			sourceTree = "<group>";
+		};
+		E6F34DC3D06E3F92B5FCA14EAEBEB2F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5815CCF8E39276D79C781031DC998876 /* FuyaCustomPlay.podspec */,
+				75F886716825B985DF157A5C212432E3 /* LICENSE */,
+				BCAE7FED2A63E1E55E1120B9EDB02053 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EF546877D45F01141C83724AE08FC7B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1294D50C1F6F4AD20EDEF1E3A30F7370 /* Pods-FuyaCustomPlay_Example */,
+				7B1E9E09117173B279F8DDFA03EE9156 /* Pods-FuyaCustomPlay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99D0124D1EC555BD917F4C7A5C112275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36652D05D31ED6CDF7C1F2A329CE8EF1 /* Pods-FuyaCustomPlay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD833246077212CFCAFB579A1A553832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9A5134D46254B948DAEC2A6796A890 /* FuyaCustomPlay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89EDBC39F6481D6C5F2A1D76B66EF3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506CFE322BEEF3BF3673322A2AC3CD2E /* Pods-FuyaCustomPlay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CB6F82FF204B7DC3A4324DCF89C4DAC /* Pods-FuyaCustomPlay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EFA3AE609663CF57E46F36341E4DF4 /* Build configuration list for PBXNativeTarget "Pods-FuyaCustomPlay_Tests" */;
+			buildPhases = (
+				99D0124D1EC555BD917F4C7A5C112275 /* Headers */,
+				A92C926F806850A0A71DD9719C850337 /* Sources */,
+				69CF6162E7262FDD7198B04B3F6B31F4 /* Frameworks */,
+				5AA160637C2ECBE008B700DF2E94B0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003348E7C050C678090AE07FCDB097BF /* PBXTargetDependency */,
+			);
+			name = "Pods-FuyaCustomPlay_Tests";
+			productName = Pods_FuyaCustomPlay_Tests;
+			productReference = AF95AE6EC63A74E75A2305FDB13AE510 /* Pods-FuyaCustomPlay_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB75711592D5320F642CC84E2DF99EE8 /* Pods-FuyaCustomPlay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8419B0ED8472BD4A0221F89CDF0ABF3D /* Build configuration list for PBXNativeTarget "Pods-FuyaCustomPlay_Example" */;
+			buildPhases = (
+				B89EDBC39F6481D6C5F2A1D76B66EF3A /* Headers */,
+				06BC5FE3CFEA3F6CEDD5887BC297B37D /* Sources */,
+				438BEE71E35D7F041D67C2731FB11095 /* Frameworks */,
+				3401816769D9EE1E33D4003DE4817F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC8AED80855A1A6667E21655C221C06 /* PBXTargetDependency */,
+			);
+			name = "Pods-FuyaCustomPlay_Example";
+			productName = Pods_FuyaCustomPlay_Example;
+			productReference = 4580AC9E186A2DAB8EC6AFCF8D7F514A /* Pods-FuyaCustomPlay_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCAB0780CE54A43E13840C933AB9BCD4 /* FuyaCustomPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49760E69B63C4A35F3220DD2A7865287 /* Build configuration list for PBXNativeTarget "FuyaCustomPlay" */;
+			buildPhases = (
+				AD833246077212CFCAFB579A1A553832 /* Headers */,
+				BE8A10CC23E0E101FEA967C16463468D /* Sources */,
+				75D39F33D6E6809E3B228177522B45F2 /* Frameworks */,
+				892834E8E77388EB7427B109CB300274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuyaCustomPlay;
+			productName = FuyaCustomPlay;
+			productReference = 0D15A298627A7EB64E5BF9D3D3147E43 /* FuyaCustomPlay */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D6A5A3C628A132FDF41483FAAF6427E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAB0780CE54A43E13840C933AB9BCD4 /* FuyaCustomPlay */,
+				CB75711592D5320F642CC84E2DF99EE8 /* Pods-FuyaCustomPlay_Example */,
+				4CB6F82FF204B7DC3A4324DCF89C4DAC /* Pods-FuyaCustomPlay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3401816769D9EE1E33D4003DE4817F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA160637C2ECBE008B700DF2E94B0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892834E8E77388EB7427B109CB300274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BC5FE3CFEA3F6CEDD5887BC297B37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F3A605C258003522646183750E83E4 /* Pods-FuyaCustomPlay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C926F806850A0A71DD9719C850337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ADB7EC940C25554645D1B97DD0D25E /* Pods-FuyaCustomPlay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8A10CC23E0E101FEA967C16463468D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6846E6CDBCCE2EA6A43ADF3D5512670 /* FuyaCustomPlay-dummy.m in Sources */,
+				4515BB4D61E8D5AE909D6FDB7B8016C7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003348E7C050C678090AE07FCDB097BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FuyaCustomPlay_Example";
+			target = CB75711592D5320F642CC84E2DF99EE8 /* Pods-FuyaCustomPlay_Example */;
+			targetProxy = 7D92C12783D42E9A17DFED0327C0FA79 /* PBXContainerItemProxy */;
+		};
+		2CC8AED80855A1A6667E21655C221C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FuyaCustomPlay;
+			target = DCAB0780CE54A43E13840C933AB9BCD4 /* FuyaCustomPlay */;
+			targetProxy = 584CD2B0AE81B954884074FEFEBDAA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		234800FC683A77F263ED8A2EF8E8E3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2E8777C5C7C5C8727C319D0F47C4F2 /* Pods-FuyaCustomPlay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuyaCustomPlay_Tests/Pods-FuyaCustomPlay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuyaCustomPlay_Tests/Pods-FuyaCustomPlay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29271445513111D3BE17A4DD67AEC504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC707A44F746EE2EBABE9C018704FD11 /* Pods-FuyaCustomPlay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuyaCustomPlay_Example/Pods-FuyaCustomPlay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuyaCustomPlay_Example/Pods-FuyaCustomPlay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9D8C4864C7DA2C00EAD3FE14749542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D431DDA40DCD9F098BB1C3FE171CFCC /* FuyaCustomPlay.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay.modulemap";
+				PRODUCT_MODULE_NAME = FuyaCustomPlay;
+				PRODUCT_NAME = FuyaCustomPlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4199BDAD213BDCACA0DCE59B94E86D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7209BFFF087490BC261DFFD77EEC0CA7 /* Pods-FuyaCustomPlay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuyaCustomPlay_Example/Pods-FuyaCustomPlay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuyaCustomPlay_Example/Pods-FuyaCustomPlay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5905EE88363CA4701D2C1E764101ABF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01213A89333F93DD625AB795D3C72558 /* Pods-FuyaCustomPlay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuyaCustomPlay_Tests/Pods-FuyaCustomPlay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuyaCustomPlay_Tests/Pods-FuyaCustomPlay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D82422F337468354E89A162BCEF0A2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631B0ECE3EF2976ECB5EC14E6076912D /* FuyaCustomPlay.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuyaCustomPlay/FuyaCustomPlay.modulemap";
+				PRODUCT_MODULE_NAME = FuyaCustomPlay;
+				PRODUCT_NAME = FuyaCustomPlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49760E69B63C4A35F3220DD2A7865287 /* Build configuration list for PBXNativeTarget "FuyaCustomPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9D8C4864C7DA2C00EAD3FE14749542 /* Debug */,
+				D82422F337468354E89A162BCEF0A2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8419B0ED8472BD4A0221F89CDF0ABF3D /* Build configuration list for PBXNativeTarget "Pods-FuyaCustomPlay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4199BDAD213BDCACA0DCE59B94E86D24 /* Debug */,
+				29271445513111D3BE17A4DD67AEC504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EFA3AE609663CF57E46F36341E4DF4 /* Build configuration list for PBXNativeTarget "Pods-FuyaCustomPlay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234800FC683A77F263ED8A2EF8E8E3E0 /* Debug */,
+				5905EE88363CA4701D2C1E764101ABF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
