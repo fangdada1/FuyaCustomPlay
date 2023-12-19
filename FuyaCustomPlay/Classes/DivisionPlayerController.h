@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ZFPlayer.h>
+#import "ZFPlayer.h"
 #import "DivisionPlayrProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN

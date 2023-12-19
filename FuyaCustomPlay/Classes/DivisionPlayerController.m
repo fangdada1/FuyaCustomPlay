@@ -9,7 +9,7 @@
 #import "DivisionAttributeManager.h"
 #import <KTVHTTPCache/KTVHTTPCache.h>
 #import "DivisionLoaderModel.h"
-#import <ZFUtilities.h>
+#import "ZFUtilities.h"
 
 @interface DivisionPlayerController()<KTVHCDataLoaderDelegate>
 
