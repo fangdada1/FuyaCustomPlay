@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'AVFoundation'
-  s.static_framework = false
+  s.static_framework = true
   s.dependency 'ZFPlayer', '3.3.0'
   s.dependency 'ZFPlayer/ControlView', '3.3.0'
   s.dependency 'KTVHTTPCache'
